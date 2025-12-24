@@ -419,6 +419,7 @@ function showNotification(message) {
 function initAutoOptimize() {
     // Check storage first
     chrome.storage.local.get(['optimizationEnabled'], (result) => {
+        console.log('ColabUI Content: Storage check result:', result);
         // Default to true if not set, to match previous behavior for installed users
         if (result.optimizationEnabled === false) return;
 

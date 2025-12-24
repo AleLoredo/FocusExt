@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "ColabUI",
   "version": "0.1.0",
-  "description": "Optimiza la interfaz de Google Colab para maximizar el espacio y la productividad.",
+  "description": "Optimiza la interfaz de Google Colab para maximizar el espacio y la productividad. Guarda tus preferencias de visualización.",
   "permissions": [
     "activeTab",
     "storage"

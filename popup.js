@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Default to true if not set
   chrome.storage.local.get(['optimizationEnabled'], (result) => {
     const isEnabled = result.optimizationEnabled !== false; // Default to true
+    console.log('ColabUI Popup: Loaded optimization state:', isEnabled);
     updateButton(isEnabled);
   });
 
@@ -14,6 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // Save to storage
       chrome.storage.local.set({ optimizationEnabled: newState }, () => {
+        console.log('ColabUI Popup: Saved optimization state:', newState);
         // Update UI
         updateButton(newState);
 
