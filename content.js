@@ -137,14 +137,6 @@ function setOptimizeUi(enable, isAutoRun = false) {
                 left: 10px !important;
             }
 
-           
-
-            /* esto no colabora
-            .body {
-                line-height: 1;
-            }*/
-
-
             .cell-execution-indicator {
                 margin-left: 20px;
             }
@@ -156,7 +148,6 @@ function setOptimizeUi(enable, isAutoRun = false) {
                 top: 40px !important;
                 width: 35px !important;
             }
-
 
             #top-toolbar.collapsed {
                 margin-top: 2px;
