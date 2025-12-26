@@ -152,7 +152,7 @@ function setOptimizeUi(enable, isAutoRun = false) {
                 left: 10px;
             }
             .status {
-                left: -48px;
+                left: -50px !important;
                 top: 40px !important;
                 width: 35px !important;
             }
